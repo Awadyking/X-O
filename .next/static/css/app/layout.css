@@ -1,0 +1,111 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[5].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"app\\layout.tsx","import":"Inter","arguments":[{"subsets":["latin"]}],"variableName":"inter"} ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face {
+  font-family: '__Inter_Fallback_725fdb';
+  src: local("Arial");
+  ascent-override:90.20%;
+  descent-override:22.48%;
+  line-gap-override:0.00%;
+  size-adjust:107.40%;
+}@font-face {font-family: '__Inter_Fallback_Fallback_725fdb';src: local("Arial");ascent-override: 90.20%;descent-override: 22.48%;line-gap-override: 0.00%;size-adjust: 107.40%
+}.__className_725fdb {font-family: '__Inter_Fallback_725fdb', '__Inter_Fallback_Fallback_725fdb';font-style: normal
+}
+/*!***********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/globals.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************/
+.Welcome div{
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+
+body{
+  padding: 0;
+  margin: 0;
+  background-image: url(/_next/static/media/bg.9812cdf6.jpg);
+  
+}
+
+
+.Welcome{
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  margin-top: 100px;
+  
+}
+
+
+.StartBut{
+  width: 150px;
+  height: 50px;
+  color: #ffffff;
+  background-image: linear-gradient(90deg , #ff0000 , #1800f3 );
+  font-size: 16px;
+  font-weight: bold;
+  border: 0.000025px transparent solid;
+  border-radius: 100px;
+  margin-left: calc((100% - 150px) /2);
+  margin-top: 30px;
+}
+.Board{
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  border: solid #000 0.5px;
+  margin-left: calc((100% - 400px) /2);
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.Sqaure{
+  width: 133.33px;
+  height: 133.33px;
+  border: #000 solid 2px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+
+.X{
+color: #ff0000;
+}
+
+.O{
+  color: #1800f3;
+}
+
+.Mes{
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
+}
+
+#reset{
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  border: 0px solid;
+  margin-left: calc((100% - 80px) / 2);
+  background-image: linear-gradient(90deg , #2e54ff , #00ff55);
+}
+
+

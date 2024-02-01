@@ -1,14 +1,13 @@
 'use client';
-import Image from 'next/image'
-import Link from 'next/link'
 import { useEffect, useState } from 'react';
 import Cell from '../items/cells';
-import { type } from "os";
-import { RefObject } from "react";
 export default Game;
 
 
 function Game() {
+
+
+
 
  const wining = [
   [0,1,2],
@@ -52,7 +51,11 @@ const [value , setValue] = useState(["","","","","","","","",""]);
 const [WinMes , setWinMes] = useState("");
 
 
-
+function reset(){
+  setValue(["","","","","","","","",""]);
+  setWinMes("");
+  setRound("X")
+}
 
   return (
     <>
@@ -78,6 +81,7 @@ const [WinMes , setWinMes] = useState("");
     <div className='Mes'>{WinMes}</div>
    {!WinMes && <div className='Mes'>{`Now! It,s (${Round}) Turn`}</div>}
   
+  <button id='reset' onClick={reset}>Reset</button>
     </>
   )
 }

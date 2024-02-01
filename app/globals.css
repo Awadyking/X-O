@@ -82,3 +82,13 @@ color: #ff0000;
   margin-top: 5px;
 }
 
+#reset{
+  margin-top: 10px;
+  width: 80px;
+  height: 25px;
+  border-radius: 15px;
+  border: 0px solid;
+  margin-left: calc((100% - 80px) / 2);
+  background-image: linear-gradient(90deg , #2e54ff , #00ff55);
+}
+
